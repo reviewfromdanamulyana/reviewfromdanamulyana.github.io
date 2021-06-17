@@ -12,7 +12,6 @@ const navbar = () => {
     overlay_nav.appendChild(nav)
 
     overlay_nav.style.display = "block"
-    overlay_nav.style.height = "11733.7px"
     if(overlay_nav.children[0]){
         overlay_nav.children[0].style.display = "block"
     }
