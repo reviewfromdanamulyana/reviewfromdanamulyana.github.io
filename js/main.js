@@ -1,5 +1,5 @@
-import * as THREE from 'https://cdn.skypack.dev/three@0.129.0';
-import * from 'https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.129.0/build/three.module.js';
+import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 
 const scene = new THREE.Scene();
 const world = document.querySelector('#world-render')
