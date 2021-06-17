@@ -24,7 +24,7 @@ scene.add(new THREE.PointLightHelper(pLight, 0.1,0xff0000))
 
 let load3d;
 
-let loader = new THREE.GLTFLoader().load('../asset/3dasset/world.glb', function(result){
+let loader = new THREE.GLTFLoader().load('reviewfromdanamulyana.github.io/tree/main/asset/3dasset/world.glb', function(result){
     load3d = result.scene.children[0]
     load3d.scale.set(29,29,29)
     load3d.position.y = 48
