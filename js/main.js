@@ -17,8 +17,6 @@ let renderer = new THREE.WebGLRenderer({antialias: true})
 renderer.setSize(world.clientWidth,world.clientHeight)
 world.appendChild(renderer.domElement)
 
-// let controls = new THREE.OrbitControls(cam, renderer.domElement);
-
 let pLight = new THREE.PointLight(0xffffff,2)
 pLight.position.set(10,60,80)
 scene.add(pLight)
@@ -32,14 +30,6 @@ let loader = new THREE.GLTFLoader().load('../asset/3dasset/world.glb', function(
     load3d.position.y = 48
     scene.add(load3d)
 })
-
-
-// window.addEventListener('resize', function(){ // untuk responsive resize
-//     renderer.setSize(world.clientWidth,world.clientHeight);
-//     cam.aspect = world.clientWidth/world.clientHeight
-//     load3d.scale.set(world.clientWidth/45,world.clientWidth/45,world.clientWidth/45)
-//     cam.updateProjectionMatrix()
-// })
 
 const draw = () => {
     if(load3d){
