@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdn.skypack.dev/pin/three@v0.129.0-s11MgzfqGP1yDDoEH9m1/mode=imports/optimized/three.js';
+import * as THREE from 'https://cdn.skypack.dev/three@0.129.0';
 import { GLTFLoader } from 'https://cdn.skypack.dev/pin/three@v0.129.0-s11MgzfqGP1yDDoEH9m1/mode=imports/unoptimized/examples/js/loaders/GLTFLoader.js';
 
 const scene = new THREE.Scene();
