@@ -1,3 +1,6 @@
+import * as THREE from 'https://cdn.skypack.dev/pin/three@v0.129.0-s11MgzfqGP1yDDoEH9m1/mode=imports/optimized/three.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/pin/three@v0.129.0-s11MgzfqGP1yDDoEH9m1/mode=imports/unoptimized/examples/js/loaders/GLTFLoader.js';
+
 const scene = new THREE.Scene();
 const world = document.querySelector('#world-render')
 world.classList.add('d3-asset');
